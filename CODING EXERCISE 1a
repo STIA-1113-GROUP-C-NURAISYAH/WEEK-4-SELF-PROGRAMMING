@@ -10,7 +10,7 @@ public class Exercise1a {
 			Scanner sc=new Scanner(System.in);
 			System.out.println ("Enter a line of text: ");
 			message= sc.nextLine();
-			System.out.println ("You entered: \" " + message + "\" ");
+			System.out.println ("You entered: \"" + message + "\" ");
 	}
 
 }

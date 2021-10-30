@@ -21,7 +21,7 @@ public class Exercise1c {
 		avg=total/3;
 		
 		System.out.println ("Total marks: " + total);
-		System.out.println ("Average marks: " + avg);
+		System.out.printf ("Average marks: %.2f" , avg);
 	
 	}
 

@@ -1,0 +1,20 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise1e {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc=new Scanner(System.in);
+		double weight, priceperkg, saleprice;
+		System.out.print ("Enter weight: ");
+		weight=sc.nextDouble();
+		System.out.print ("Enter price per kg: ");
+		priceperkg=sc.nextDouble();
+		saleprice=weight*priceperkg;
+		
+		System.out.print ("Sale price is: " + saleprice);
+		
+	}
+
+}

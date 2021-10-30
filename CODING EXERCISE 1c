@@ -1,0 +1,28 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise1c {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc=new Scanner (System.in);
+		
+		int mark1, mark2, mark3;
+		double total=0, avg=0;
+		
+		System.out.print("Enter mark 1: ");
+		mark1=sc.nextInt();
+		System.out.print("Enter mark 2: ");
+		mark2=sc.nextInt();
+		System.out.print("Enter mark 3: ");
+		mark3=sc.nextInt();
+		
+		total=mark1+mark2+mark3;
+		avg=total/3;
+		
+		System.out.println ("Total marks: " + total);
+		System.out.println ("Average marks: " + avg);
+	
+	}
+
+}

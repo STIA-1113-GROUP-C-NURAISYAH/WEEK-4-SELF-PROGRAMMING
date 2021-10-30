@@ -1,0 +1,21 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise1d {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		int w=20, x=3, y=2, z;
+		
+		z=x/y;
+		x=x+1;
+		System.out.print( x % y );
+		System.out.print( 3 * ( w/x ) );
+		w=w+1;
+		System.out.print( w % x );
+		System.out.print( 2 * ( x+y ) );
+		System.out.print( y * ( z+1 ) );
+		
+	}
+
+}

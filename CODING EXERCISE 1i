@@ -1,0 +1,23 @@
+package selfProgramming;
+import java.util.Scanner;
+public class Exercise1g {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		System.out.println ("The subjects are as follows :");
+        String input = "1 Math 2 English 2 Science 4 Bahasa";
+        Scanner sc=new Scanner (input);
+        
+        System.out.print(sc.nextInt()+". ");
+        System.out.println(sc.next());
+        System.out.print(sc.nextInt()+". ");
+        System.out.println(sc.next());
+        System.out.print(sc.nextInt()+". ");
+        System.out.println(sc.next());
+        System.out.print(sc.nextInt()+". ");
+        System.out.println(sc.next());
+    
+	}
+
+}

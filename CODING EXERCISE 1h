@@ -1,0 +1,29 @@
+package myScanner;
+import java.util.Scanner;
+public class Newnumber {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		Scanner sc=new Scanner (System.in);
+		int num;
+		double value;
+		double avg;
+		
+		System.out.print("Enter an integer: ");
+		num=sc.nextInt();
+		System.out.print("Enter double value: ");
+		value=sc.nextDouble();
+		avg=(num+value)/2;
+		
+		System.out.println ("The integer is " + num);
+		System.out.println ("The double value is " + value);
+		System.out.println ("The average is " + avg);
+
+		System.out.println (num>value);
+		System.out.println (num==value);
+
+		
+	}
+
+}

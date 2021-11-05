@@ -1,0 +1,40 @@
+package myScanner;
+import java.util.Scanner;
+public class equivalentChange {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		Scanner sc=new Scanner (System.in);
+		System.out.println ("Enter value for change to halfdollar= ");
+		int value1=sc.nextInt();
+		System.out.println ("Enter value for change to quarter= ");
+		int value2=sc.nextInt();
+		System.out.println ("Enter value for change to dime= ");
+		int value3=sc.nextInt();
+		System.out.println ("Enter value for change to nickel= ");
+		int value4=sc.nextInt();
+		
+		final int halfdollar=50;
+		final int quarter=25;
+		final int dime=10;
+		final int nickel=5;
+		
+		double formula1=value1*halfdollar;
+		double formula2=value2*quarter;
+		double formula3=value3*dime;
+		double formula4=value4*nickel;
+				
+		System.out.println ("Equivalent change for halfdollar= " + formula1);
+		System.out.println ("Equivalent change for quarter= " + formula2);
+		System.out.println ("Equivalent change for dime= " + formula3);
+		System.out.println ("Equivalent change for nickel= " + formula4);
+		
+		
+		
+		
+		
+		
+	}
+
+}

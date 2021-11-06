@@ -1,0 +1,48 @@
+package selfProgramming;
+
+public class Exercise1hiii {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		char a= 'x';
+		char b= 'y';
+		char c= 'z';
+		double i=b*b;
+		double j=4*a*c;
+		double k=i+j;
+		double kk=Math.sqrt(k);
+		double l=-b+kk;
+		double m=2*a;
+		double mm=l/m;
+		int ascii=(int)a;
+		int ascii2=(int)b;
+		int ascii3=(int)c;
+		double ascii4=Math.pow (a,b);
+		double ascii5=Math.min(a,b);
+		double ascii6=Math.max(a,b);
+		double ijk=112.257;
+		double ascii7=Math.round(ijk);
+		
+		System.out.println ("a = " + ascii);
+		System.out.println ("b = " + ascii2);
+		System.out.println ("c = " + ascii3);
+		
+
+		System.out.println ("i = " + i);
+		System.out.println ("j = " + j);
+		System.out.println ("k = " + k);
+		System.out.printf ("kk = %.2f" , kk);
+		System.out.println();
+		System.out.printf ("l = %.2f" , l);
+		System.out.println();
+		System.out.println ("m = " + m);
+		System.out.printf ("mm = %.2f" , mm);
+		System.out.println();
+		System.out.println ("Math power = " + ascii4);
+		System.out.println ("Math min = " + ascii5);
+		System.out.println ("Math max = " + ascii6);
+		System.out.println ("Round num = " + ascii7);
+	}
+
+}

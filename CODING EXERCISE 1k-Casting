@@ -1,0 +1,25 @@
+package selfProgramming;
+
+public class casting {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+		int a=5;
+		int b=23;
+		int c=2;
+		int d=50;
+		float e;
+		double arithmetic;
+		
+		e=(float)d/6;
+		arithmetic=(-b+Math.sqrt(b*b-4*a*c))/(2*a);
+		
+		System.out.printf ("The arithmetic is %.2f" , arithmetic);
+		System.out.println();
+		System.out.printf ("e= %.2f", e);
+		
+		
+	}
+
+}
